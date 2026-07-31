@@ -1,7 +1,26 @@
 aid: novoprotein
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novoprotein.png
 name: novoprotein
-description: novoprotein is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Novoprotein (Suzhou Novoprotein Scientific / 苏州近岸蛋白质科技股份有限公司) is a Chinese
+  biotechnology company specializing in recombinant protein preparation and related
+  life-science reagents and contract research services. Its catalog spans mRNA vaccine
+  raw materials, cytokines and growth factors, Matrigel and culture media, reference
+  and bispecific antibodies, cell lines, target proteins, and viral research products
+  serving drug discovery, cell therapy, and diagnostics customers. It was surfaced
+  as a portfolio company of Qiming Venture Partners and added to the API Evangelist
+  network. As a B2B reagent supplier it publishes no public developer API, API
+  documentation, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/novoprotein/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Recombinant Proteins
+- Antibodies
+- Reagents
+- Cell Therapy
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/novoprotein-domain-security.yml
 - type: Website
   url: https://novoprotein.com.cn
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
